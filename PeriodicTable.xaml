@@ -1,0 +1,72 @@
+﻿<Window xmlns="http://schemas.microsoft.com/netfx/2007/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		x:Class="Science.Chemistry.WindowPeriodicTable"
+		WindowStartupLocation="CenterScreen"
+		Title="Periodic Table of Elements"
+		MinHeight="240" MinWidth="320"
+		Height="768" Width="1024">
+	
+	<Window.Resources>
+		<ObjectDataProvider x:Key="odpElements" ObjectInstance="AE" />
+		<Rectangle x:Key="rectSelectEffect" x:Name="rectSelectEffect" />
+		<Style TargetType="Button">
+			<Style.Triggers>
+				<EventTrigger RoutedEvent="Button.Click">
+					
+				</EventTrigger>
+			</Style.Triggers>
+		</Style>
+	</Window.Resources>
+	<Window.Triggers>
+		
+	</Window.Triggers>
+	<Grid x:Name="gridMain">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="100*" />
+			<ColumnDefinition Width="Auto" />
+		</Grid.ColumnDefinitions>
+		<Border Margin="4" BorderThickness="4" BorderBrush="Black" CornerRadius="6">
+			<Grid Name="GridPeriodicTable" Margin="8" DataContext="{StaticResource odpElements}" >
+				<Grid.Resources>
+					<Style TargetType="Label">
+						<Setter Property="FontWeight" Value="Bold" />
+						<Setter Property="Padding" Value="1" />
+					</Style>
+				</Grid.Resources>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+				<Grid.RowDefinitions>
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+				</Grid.RowDefinitions>
+				<Button Grid.Column="6" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+			</Grid>			
+		</Border>		
+	</Grid>	
+</Window>
