@@ -1,9 +1,0 @@
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\bin\Release\Science.exe
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\bin\Release\Science.pdb
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\ResolveAssemblyReference.cache
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\PeriodicTable.baml
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\PeriodicTable.g.cs
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\Science_MarkupCompile.cache
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\Science.g.resources
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\Science.exe
-D:\Documents\Visual Studio 2008\Projects\Science\ScienceCore\obj\Release\Science.pdb
